@@ -1,0 +1,24 @@
+HTML - hyper text markup language
+hyper text - text which serves a link to a different document
+markup language - it is a set of symbols included in text which decides the structure and 
+formatting of the text
+in <H1>the heading</H1>
+- whatever inside <> is called tags
+- tags along with the content is called an element
+
+<h1> is a tags which sets up headline heirarchy
+maximum it can go upto is <h6>
+<h1> is opening tag and </h2> is called closing tag
+
+<p>___</P> tags changes seperates two paragraphs by an empty line
+
+void elements are those elements which do not take any content. ex- <br />, <hr /> etc
+
+horizontal row tag
+<hr /> or <hr> tags inserts a horizontal line between text
+
+break tag
+<br /> or <br> tags changes the line between text
+
+lorem ipsum - meaningless randomly generated text resembling a properly written text- we can use it to test our fonts, spacing in our websites
+
