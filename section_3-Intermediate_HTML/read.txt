@@ -1,0 +1,19 @@
+<ul>
+    <li>___</li>
+</ul>
+ 
+<ul> is unordered list whereas <ol> is a ordered list
+
+<!--this is how you write comment in html-->
+
+<tag attribute = value> content </tag>
+example <a href=www.google.com>google search engine</a>
+<a></a> is called anchor element- it converts the content into a hypertext
+
+html attributes are special words used inside the opening tag to control the content behaviour
+there are some specific attributes that can only be applied in a specific tag. example- href can only be used in an anchor element
+there are global attribute that can be used with any element. example- draggable 
+<a draggable=true> hello </a>
+
+image element- <img src="link" /> (it's a void elements)
+src is the attribute which takes the image link

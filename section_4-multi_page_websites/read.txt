@@ -1,0 +1,27 @@
+file paths -
+1. absolute file paths ex- c:/users/roman/OneDrive/Desktop/dog.png
+2. relative file paths
+
+working directory- the folder in which the file you are working on is located
+../dog.png - goes up a level from the working directory and then access the 
+dog.png located in that folder
+./cat.png - stays in the same directory and access cat.png
+
+in vs code -
+assets\images means there is a image folder inside assets folder
+
+boilerplate in html is how the code is structured
+<!DOCTYPE html> <!--this tells the browser that we are using html-5-->
+<html lang="en"> <!--this sets the language to english-->
+<head>
+    <meta charset="UTF-8"> <!--this allows the use of all the characters like 
+                            special characters-->
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello world</h1>
+</body>
+</html>
+
+head element is doesn't include any content, it's
+just necessary for website to render

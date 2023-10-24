@@ -1,0 +1,33 @@
+css is of three types
+1: incline- used in single element
+2: internal- used in making a single page
+3: external-used in making website having multiple webpages
+
+examples:
+incline-
+<html style="background:blue">
+</html>
+
+internal-
+<html>
+    <head>
+        <style>
+            html{
+                background:red
+                }
+        </style>
+    </head>
+</html>
+
+external-
+<html>
+    <head>
+        <link
+            rel=stylesheets
+            href=./style.css
+        />
+    </head>
+</html>
+
+here style.css is file in the same directory
+

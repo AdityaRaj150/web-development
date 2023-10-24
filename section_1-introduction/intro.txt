@@ -1,7 +1,0 @@
-internet is a giant network of wires that connect different computers(clients) with the servers(that serves html, css, js of a website to the clients pc)
-<br>
-first we give the name of the website to the ISP(internet service provider) the it relays it to DNS(domain server) which finds the IP address of the website then relays it back to us through ISP, then we send this IP address to the servers which then provides html, css, js of that website to us and finally the website loads on your screen
-<br>
-html - it's the content of the website. examples- the links, buttons, images, text
-css - it's how the websites are styled. examples - shape of buttons, colour, size etc
-js - it provides functionality to the website
