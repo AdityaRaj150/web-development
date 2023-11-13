@@ -1,0 +1,15 @@
+<script src="__" crossorigin="".... ></script>
+is supposed to be in just inside </body>, it provides drop down effects effects
+
+whereas the <link.... one need to included in the head part!
+
+IN the 11.0 bootstrap/index.html
+    .flex-container is a bootstrap class so to overwrite it's certain aspects do inline,internal styling
+    incase you do external styling, keep in mind that it the <link href="" rel="" /> should be below that of bootstrap
+
+There are 12 divisions in the row in bootstrap
+SIZED COLUMNS:
+
+    by using col-3, col-6 you can allote width to the classes 25% and 50% respectively.
+
+

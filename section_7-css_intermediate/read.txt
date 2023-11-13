@@ -1,0 +1,42 @@
+CSS cascading
+
+    css cascading where the priority is 
+    position < specificity < type < importance
+
+    position - whatever is at the bottom should get more priority
+
+    specificity - element tag < class < attribute < id 
+
+    type - external < internal < inline
+
+    importance - using importance tag 
+    ex- green !important
+
+    note- if in the class attribute there is a space, it means there is another class attribute 
+    example- <p class="first second-one">
+    here p tag has two class first and second- one
+
+COMBINING CSS SELECTORS
+    see the pictures
+    note- in chaining always start with element
+    example-
+    h1.title#new-era is correct
+    .titleh1#new-era is wrong
+
+
+CSS POSITIONING
+
+relative: will be set relative to what should have been it's actual position
+absolute: will be set relative to a positioned parent element or to the top left corner of the body of the website
+fixed: will be set relative to the to left corner of window
+
+
+to select all the element, use-
+* {
+    property: value
+}
+
+combining selector- let's say you want to select all the child element of a class box-
+.box * {
+    propery: value;
+}

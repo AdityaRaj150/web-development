@@ -1,0 +1,28 @@
+every colour has a unique hex decimal you can use it as an alternative to the colour name
+- use popular palette from website like colour hunt for your website
+
+1 Pixel is 1/96 of an Inch
+1 Point is 1/72 of an Inch
+1em is 100% the size of the parent element
+1rem is 100% the size of the root element
+
+in case of font-family: arial, cursive
+here arial is a specific typeface and cursive is generic typeface
+so we can add generic type face also in case specific typeface does't work!
+
+-also if the the typeface has more than one word then you must use double quotes, otherwise not necessary!
+
+The CSS Box Model:
+you can create box using <div></div> html tag
+
+border width: 0px 20 px 30px 40px 
+this starts with top and goes anticlockwise
+
+examples of how to set borders-
+
+border: 20px solid black
+border: 10px dashed red
+
+note- border width: 0px 20px [use it after defining border type and colour that is border: solid black;]
+here top and bottom are set 0px whereas left & right are set to 20px
+

@@ -1,0 +1,23 @@
+CSS DISPLAY:
+
+block: it consumes the whole width / the complete line
+inline: it consumees only that much width which is required for the text
+inline-block: it is basically customizable inline. you can change the width and height to your liking
+
+CSS FLOAT:
+
+it is primarily used to make text wrap up around images/div. ex- img{float: right}
+CLEAR: it is used to clear the affect of float on text: ex- footer {clear: both}
+ex- footer {clear: right}
+
+to read more about and know property of media query go the link-
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+HOW TO MAKE WEBSITES RESPONSIVE -  FOR IT WE USE THE FOLLOWING -    
+flexbox, media query, css grid, bootstrap
+
+FLEXBOX:
+flex: 1 distributes entire area equally in all boxes(flexitems)
+whereas if you do .box1{flex: 2} and .box2{flex: 1} then they will occupy spaces in the ration 2:1
+this makes the websites responsive since it divides in this ratios keeping in mind the size of website.

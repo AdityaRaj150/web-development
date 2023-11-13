@@ -5,7 +5,7 @@ css is of three types
 
 examples:
 incline-
-<html style="background:blue">
+<html style="background:blue";>
 </html>
 
 internal-
@@ -13,7 +13,7 @@ internal-
     <head>
         <style>
             html{
-                background:red
+                background:red;
                 }
         </style>
     </head>
@@ -23,11 +23,45 @@ external-
 <html>
     <head>
         <link
-            rel=stylesheets
-            href=./style.css
+            rel="stylesheet"
+            href="./style.css"
         />
     </head>
 </html>
 
 here style.css is file in the same directory
+let in style.css
+html{background:blue;}
 
+css selectors -
+1: element selector
+   h1 {color:blue}
+
+2: class selector
+    class is a global attribute. Many elements can have same class name. Let's say 
+    <h1 class="red-heading">hi</h1>
+    <h2 class="red-heading">man</h2>
+
+    here both of this h1 and h2 tag comes under red-heading class so they can be styled together like this-
+
+   .red-heading {color:blue;}
+
+3: Id selector
+    Id is a global attribute. No two element can have same Id. It's unique
+    let's say <h1 Id="main">hello</h1>
+
+    #main {color:red;}
+
+4: attribute selector
+    tag[attribute]{property:value}
+
+ex- <p draggable="true">drage me</p>
+    <p draggable="false">don't drag me</p>
+
+    p[draggable="true"]{
+        color:blue;
+    }
+
+5: universal selector- it styles everything together
+    ex- 
+    * {color:blue}

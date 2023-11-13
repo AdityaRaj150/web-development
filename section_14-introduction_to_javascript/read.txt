@@ -1,0 +1,44 @@
+alert("hello"); or window.alert("hello"); shows a popup with the message and ok button
+typeof(variable) returns the type of variable it is 
+
+concatination of different vairables are possible
+
+ctrl + l clears the console
+to clear console as well delete all the data stored in the memory, right click on the reload icon and click empty cache and hard reload
+
+prompt("hello") shows a prompt with the message and asks for the user input
+
+var my_name = "aditya" #this is how a declare a varibale here
+
+only two special characters $ and _ are allowed in naming of variable in java script
+
+* camelcasing is a good practise - in this the first word is all small and the following words' first alphabet is capitalised
+ex- userEmailAddress
+
+* stringvariable.length gives the length of the string
+
+variable.slice(x,y) slices the strings 
+ex- my_name = "aditya"
+    my_name.slice(0,2) will give me ad
+
+
+
+Question 3:
+What does y  equal?
+
+var x = 3;
+var y = x++;
+y += 1;
+
+
+ans: y = 4 
+
+
+In this line: var y = x++ the value of x is assigned to y before x is incremented, 
+so y equals 3 on line 2, while x equals 4. There fore on line 3, y now equals 4 instead of 5.
+
+how to make function in javascript:
+function subArray() {
+    //do something
+}
+

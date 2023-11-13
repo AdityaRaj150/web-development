@@ -5,3 +5,4 @@ first we give the name of the website to the ISP(internet service provider) the 
 html - it's the content of the website. examples- the links, buttons, images, text
 css - it's how the websites are styled. examples - shape of buttons, colour, size etc
 js - it provides functionality to the website
+

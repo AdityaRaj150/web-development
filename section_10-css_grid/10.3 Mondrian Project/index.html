@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .grid-container {
+      display: grid;
+      width: 748px;
+      height: 757px;
+      background-color: black;
+      grid-template-columns:320px 360px 50px ;
+      grid-template-rows:414px 130px 166px 20px ;
+      gap: 9px;
+      margin-left: 33%;
+      margin-top: 180px;
+      
+    }   
+
+    .two {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+
+    .third {
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+   
+    .fourth {
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    .five {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      grid-row-start: 2;
+      grid-row-end: -1;
+      
+     
+
+    }
+
+    .blue {
+      background-color: #004592;
+      height: 130px;
+      width: 50px;
+    }
+
+    .yellow {
+      background-color: #F9D01E;
+      width: 198px ;
+      height: 20px;
+    }
+
+    .black {
+      background-color: #232629;
+      width:153px ;
+      height: 20px;
+    }
+    
+    .red {
+      background-color: #E72F24;
+    }
+
+    .basic {
+      background-color: #F0F1EC;
+    }
+
+    .basicflex {
+      background-color: #F0F1EC;
+      width:50px ;
+      height: 204px;
+    }
+
+    .seven {
+      display: flex;
+      gap: 9px
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="grid-container">
+    <div class="red"></div>
+    <div class="basic two"></div>
+    <div class="basic third"></div>
+    <div class="basic fourth"></div>
+    <div class="five">
+      <div class="blue"></div>
+      <div class="basicflex"></div>
+    </div>
+    <div class="basic"></div>
+    <div class="seven">
+       <div class="yellow"></div>
+       <div class="black"></div>
+    </div>
+    
+
+   
+  </div>
+</body>
+
+</html>

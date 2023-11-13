@@ -1,0 +1,19 @@
+flex direction: coloumn or row sets the main axis to column and row respectively.
+cross axis is an axis perpendicular to the main axis.
+see the pic.
+
+flex-basis is flexing(widening) along the main axis.
+
+if you want to container to fit only as much content as required for everything to fit ,
+we use inline-flex!
+
+note- flex-basis is to be set on the child element not the parent(let's say the class container
+
+note- flex-direction: row-reverse shows kinda mirror image (lines up items in the opposite direction) which
+is different from justify-content: flex-end(which just pushed the items towards the right side!)
+
+to know about flexbox all properties, visit this website:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+for practise:
+https://appbrewery.github.io/flexboxfroggy/
